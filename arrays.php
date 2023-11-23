@@ -18,11 +18,11 @@
         <h1>PHP piemērs</h1>
         <nav>
             <a href="index.html">PHP ievads</a>
-            <a href="arrays.html">PHP masīvi</a>
-            <a href="controlstructs.html">PHP kontrolstrukturas</a>
-            <a href="functions.html">PHP funkcijas</a>
-            <a href="pd.html">PHP parbaudes darbs</a>
-            <a href="mysql.html">PHP un MySQL</a>
+            <a href="arrays.php">PHP masīvi</a>
+            <a href="controlstructs.php">PHP kontrolstrukturas</a>
+            <a href="functions.php">PHP funkcijas</a>
+            <a href="pd.php">PHP parbaudes darbs</a>
+            <a href="mysql.php">PHP un MySQL</a>
 
         </nav>
     </aside>
