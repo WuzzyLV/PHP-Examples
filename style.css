@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+* {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 0.1s linear;
+}
+
+body {
+    background-color: #eee;
+    padding-left: 25rem;
+}
+
+header {
+    background-color: #444;
+    padding: 2.5rem;
+    color: white;
+    font-size: 1.5rem;
+}
+
+aside {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-color: #333;
+    width: 25rem;
+    height: 100%;
+    padding: 2rem;
+}
+
+aside nav {
+    padding: 15% 0;
+}
+
+aside h1 {
+    color: #eee;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+nav a {
+    display: block;
+    color: #fff;
+    background-color: #666;
+    border-radius: 1.5rem;
+    font-size: 1.2rem;
+    margin: 1rem 0;
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:hover {
+    background-color: #999;
+    letter-spacing: .1rem;
+}
+
+main {
+    font-size: 1.4rem;
+    padding: 2rem;
+}
+
+form {
+    margin: 1rem 0;
+    padding: 1rem 0.5rem;
+    background: linear-gradient(to right, #ccc, #eee);
+    border-radius: 0.5rem;
+}
+
+form p {
+    margin-top: 1rem;
+
+}
+
+input[type="text"], input[type="number"] {
+    padding: 0.5rem;
+    border: 1px solid #333;
+    border-radius: 0.2rem;
+    color: #333;
+}
+
+input[type="submit"] {
+    padding: 0.5rem;
+    border-radius: 0.2rem;
+    color: #fff;
+    background-color: #333;
+}
+
+input[type="submit"]:hover {
+    background-color: #666;
+    cursor: pointer;
+}
